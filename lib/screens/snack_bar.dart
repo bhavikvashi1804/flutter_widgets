@@ -24,12 +24,6 @@ class SnackBarPage extends StatelessWidget {
                   content: Text(
                     'SnackBar'
                   ),
-                  action: SnackBarAction(
-                    label: 'Undo',
-                    onPressed: () {
-                      // Some code to undo the change.
-                    },
-                  ),
                 )
               );
           },
