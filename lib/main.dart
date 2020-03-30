@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import './screens/stepper_screen.dart';
+import './screens/bottom_sheet.dart';
 
 void main() {
   runApp(MyApp());
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: StepperScreen(),
+      home: BottomSheetScreen(),
     );
   }
 }
