@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import './screens/swipe_dismiss.dart';
+import './screens/floating_action_button.dart';
 
 void main() {
   runApp(MyApp());
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: SwipeScreen(),
+      home: FABScreen(),
     );
   }
 }
