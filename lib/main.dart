@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import './screens/snack_bar.dart';
+import './screens/navigation_drawer.dart';
 
 void main() {
   runApp(MyApp());
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: SnackBarScreen(),
+      home: NavigationDrawerScreen(),
     );
   }
 }
