@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
-import './screens/bottom_sheet.dart';
+import './screens/expanded_sticky.dart';
+import 'screens/expanded_sticky.dart';
 
 void main() {
   runApp(MyApp());
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: BottomSheetScreen(),
+      home: HomePage(),
     );
   }
 }
