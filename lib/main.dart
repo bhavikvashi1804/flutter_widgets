@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import './screens/expanded_sticky.dart';
-import 'screens/expanded_sticky.dart';
+import './screens/material_search_app.dart';
+
 
 void main() {
   runApp(MyApp());
@@ -13,10 +13,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Widgets',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: HomePage(),
+      home: SearchApp(),
     );
   }
 }
